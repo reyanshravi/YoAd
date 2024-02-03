@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <div className="sticky top-0 z-10 shadow-md ">
-        <div className="navbar bg-base-100 px-16 bg-opacity-90">
+        <div className="navbar bg-base-100 bg-opacity-90">
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -67,7 +67,7 @@ function Navbar() {
             </div>
             <a className="btn btn-ghost text-xl">YoAd</a>
           </div>
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center hidden lg:flex px-16">
             <ul className="menu menu-horizontal px-1">
               <li>
                 <a>Tricycle</a>
